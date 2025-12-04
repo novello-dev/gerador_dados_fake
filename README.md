@@ -1,24 +1,24 @@
-# Gerador de Dados Fake (Streamlit)
+# Fake Data Generator (Streamlit)
 
-Um gerador simples e prático de **dados fake** usando **Python + Streamlit + Faker**.
-Criei esse projeto para **meus estudos pessoais**, mas decidi subir no GitHub para deixar salvo, documentado, e também porque talvez possa ser útil para outras pessoas que precisem gerar dados de teste rapidamente.
-
----
-
-## Funcionalidades
-
-- Geração de dados fake para três áreas:
-  - **Vendas**
-  - **Saúde**
-  - **RH**
-- Quantidade configurável (10 a 1000 linhas)
-- Visualização direta na interface do Streamlit
-- Download dos dados em **CSV**
-- Campos variados para simular cenários reais (nomes, datas, produtos, especialidades, salários, etc.)
+A simple and practical fake data generator brewed with **Python + Streamlit + Faker**.  
+I built this project for my personal studies, but then I decided to upload it to GitHub to save it, document it, and leave it public for it may be useful for other people who need to generate data quickly.
 
 ---
 
-## Tecnologias utilizadas
+## Features
+
+- Fake data generation for three areas:
+  - **Sales**
+  - **Health**
+  - **HR**
+- Configurable quantity (10 to 1000 rows)
+- Direct visualization in the Streamlit interface
+- CSV data download
+- Various fields to simulate real scenarios (names, dates, products, specialties, salaries, etc.)
+
+---
+
+## Tech stack
 
 - **Python 3.11**
 - **Streamlit**
@@ -27,16 +27,16 @@ Criei esse projeto para **meus estudos pessoais**, mas decidi subir no GitHub pa
 
 ---
 
-## Como instalar e rodar
+## How to install and run
 
-### 1. Clone o repositório
+### 1. Clone the repository
 
 ```bash
-git clone https://github.com/SEU-USUARIO/gerador_dados_fake.git
+git clone https://github.com/YOUR-USER/gerador_dados_fake.git
 cd gerador_dados_fake
 ```
 
-### 2. Crie um ambiente virtual (opcional, mas recomendado)
+### 2. Create a virtual environment (optional but recommended)
 
 ```bash
 python -m venv venv
@@ -44,56 +44,56 @@ source venv/bin/activate   # macOS/Linux
 venv\Scripts\activate      # Windows
 ```
 
-### 3. Instale as dependências
+### 3. Install the dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Execute o Streamlit
+### 4. Run Streamlit
 
 ```bash
 streamlit run app.py
 ```
 
-O app abrirá automaticamente no navegador.
+The app will automatically open in your browser.
 
 ---
 
-## Por que este projeto?
+## Why this project?
 
-Eu sempre trabalho com dados e percebi que muitas vezes preciso de registros falsos para:
+I work with data all the time and noticed that I often need fake records for:
 
-- testes
-- estudos
-- protótipos
-- alimentar outros scripts
-- brincar com visualizações
+- tests  
+- studies  
+- prototypes  
+- feeding other scripts  
+- playing with visualizations  
 
-Então decidi fazer meu próprio gerador, e agora o disponibilizo aqui no GitHub para ficar salvo e talvez ajudar mais alguém.
-
----
-
-## Possíveis melhorias futuras
-
-- Gerar Excel/XLSX
-- Exportar JSON
-- Criar dashboard com gráficos
-- Adicionar mais áreas (financeiro, marketing, logística…)
-- Deploy online (Streamlit Cloud / HuggingFace)
-
-Se quiser contribuir com alguma dessas ideias, sinta-se à vontade!
+So I decided to create my own generator, and now I’m making it available on GitHub to keep it safe and maybe help someone else.
 
 ---
 
-## Contribuições
+## Possible future improvements
 
-Contribuições são bem-vindas!
-Abra uma issue, envie sugestões, ideias, pull requests... Qualquer coisa é válida!
+- Generate Excel/XLSX
+- Export JSON
+- Create dashboard with charts
+- Add more areas (finance, marketing, logistics…)
+- Online deployment (Streamlit Cloud / HuggingFace)
+
+If you'd like to contribute to any of these ideas, feel free!
 
 ---
 
-## Licença
+## Contributions
 
-Este projeto é livre para uso educacional e pessoal.
-Pode usar, alterar, melhorar e distribuir como quiser.
+Contributions are welcome!  
+Open an issue, send suggestions, ideas, pull requests… anything is appreciated!
+
+---
+
+## License
+
+This project is free for educational and personal use.  
+You may use, modify, improve, and distribute it as you wish.
